@@ -1,0 +1,17 @@
+# Build / distribution artifacts
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# Project-specific caches
+# =======================
+.mypy_cache/
+.pytest_cache/
+.coverage
+
+# Optional project-specific temp/data folders
+# ===========================================
+data/temp
+reports/
+docs/_build/
